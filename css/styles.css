@@ -284,3 +284,95 @@ button:hover {
   height: 88px;
   margin-top: 12px;
 }
+
+/* ............................................. */
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "BPG Nateli", sans-serif;
+  color: #ffffff;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+h5,
+h6 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 200;
+  width: 780px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+h6 {
+  width: 517px;
+}
+
+.seccard1,
+.seccard2 {
+  display: flex;
+  gap: 40px;
+  padding-top: 25px;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.seccard1 div p,
+.seccard2 div p {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 23px;
+  width: 785px;
+  margin-bottom: 7px;
+}
+
+.secbutton2 {
+  width: 90px;
+  height: 25px;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #49522a;
+}
+
+.secsec3 {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.seccard3 h1,
+.seccard4 h1,
+.seccard5 h1 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.seccard3 p,
+.seccard4 p,
+.seccard5 p {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  width: 365px;
+  line-height: 18px;
+}
+
+.seccard5 h1 {
+  width: 370px;
+}
