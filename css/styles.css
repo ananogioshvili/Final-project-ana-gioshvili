@@ -5,6 +5,8 @@ body {
 .header {
   display: flex;
   font-family: "BPG Nino Mtavruli", sans-serif;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .header div {
@@ -16,7 +18,7 @@ body {
 .h1 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .nav {
@@ -26,12 +28,20 @@ body {
   flex-wrap: wrap;
 }
 
+.nav a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+}
+
 .icon {
   display: flex;
   align-items: center;
   gap: 7px;
-  justify-content: flex-end;
-  padding-right: 70px;
+  justify-content: center;
+  /* padding-right: 70px; */
 }
 
 .header div h1 {
@@ -294,6 +304,10 @@ button:hover {
   flex-wrap: wrap;
 }
 
+.nav2 a {
+  text-decoration: none;
+}
+
 h3 {
   font-size: 40px;
   font-weight: 700;
@@ -328,6 +342,10 @@ h6 {
   margin-bottom: 70px;
 }
 
+.seccard2 {
+  margin-bottom: 90px;
+}
+
 .seccard1 div p,
 .seccard2 div p {
   color: #ffffff;
@@ -349,7 +367,7 @@ h6 {
   display: flex;
   justify-content: center;
   gap: 90px;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 100px;
 }
 
@@ -375,4 +393,49 @@ h6 {
 
 .seccard5 h1 {
   width: 370px;
+}
+
+.secsec4 {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.seccard6 h1,
+.seccard7 h1,
+.seccard8 h1 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.seccard6 p,
+.seccard7 p,
+.seccard8 p {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  width: 365px;
+  line-height: 18px;
+}
+
+.seccard9 {
+  display: flex;
+  gap: 40px;
+  padding-top: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.seccard9 div li {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 23px;
+  width: 632px;
+  margin-bottom: 7px;
 }
