@@ -278,6 +278,77 @@ button:hover {
   align-items: center;
 }
 
+.sec4 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.sec4 h1 {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: "BPG Nateli", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 580px;
+  margin-bottom: 40px;
+}
+
+.oriverow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.row {
+  display: flex;
+  gap: 120px;
+  display: flex;
+}
+
+.row p {
+  color: #ffffff;
+  width: 307px;
+  margin-top: 15px;
+}
+
+.row a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.org,
+.org2,
+.org3 {
+  width: 400px;
+  height: 267px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.org img {
+  height: 255px;
+}
+
+.org2 img {
+  height: 200px;
+  width: 390px;
+}
+
+.org3 img {
+  height: 200px;
+  width: 170px;
+}
+
 .footer {
   font-family: "BPG Nino Mtavruli", sans-serif;
   display: flex;
