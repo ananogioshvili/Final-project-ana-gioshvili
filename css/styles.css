@@ -1,14 +1,16 @@
 body {
-  background-color: #606c38;
+  background-color: #606c38 !important;
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: "BPG Nino Mtavruli", sans-serif;
   position: sticky;
   top: 0;
-  /* justify-content: center;
-  align-items: center; */
+  width: 100%;
+  z-index: 2;
 }
 
 .header div {
@@ -18,15 +20,26 @@ body {
 }
 
 .h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 7px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -39,11 +52,16 @@ a:hover {
 }
 
 .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 7px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  /* padding-right: 70px; */
 }
 
 .header div h1 {
@@ -58,11 +76,17 @@ a:hover {
 }
 
 .sec1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100% !important;
-  height: 750px;
+  height: 800px;
 }
 
 .img1 {
@@ -73,8 +97,14 @@ a:hover {
   background-repeat: no-repeat;
   color: #ffffff;
   font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -84,26 +114,41 @@ h2 {
   font-family: "BPG Nateli", sans-serif;
   margin-bottom: 20px;
   font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 360px;
-  /* margin-left: 20px; */
 }
 
 .view {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 2871px;
-  /* margin-right: 18px; */
 }
 
 .viewall {
   font-family: "BPG Nino Mtavruli", sans-serif;
   size: 80px;
   color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 20px;
   width: 105px;
@@ -112,15 +157,28 @@ h2 {
 }
 
 .sec2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
-  /* gap: 30px; */
+
+  -webkit-box-pack: center;
+
+  -ms-flex-pack: center;
+
   justify-content: center;
   font-family: "BPG Nateli", sans-serif;
 }
 
 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 20px;
 }
@@ -164,16 +222,28 @@ button:hover {
 }
 
 .card1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   background-color: #404725;
   width: 350px;
   height: 310px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 350px;
 }
@@ -197,16 +267,28 @@ button:hover {
 }
 
 .card2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   background-color: #404725;
   width: 350px;
   height: 310px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .card2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 350px;
 }
@@ -229,16 +311,28 @@ button:hover {
 }
 
 .card3 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   background-color: #404725;
   width: 350px;
   height: 310px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .card3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 350px;
 }
@@ -261,26 +355,44 @@ button:hover {
 }
 
 .card4 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   background-color: #404725;
   width: 350px;
   height: 310px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .card4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 350px;
 }
 
 .sec3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100%;
-  height: 850px;
+  height: 1000px;
 }
 
 .img2 {
@@ -291,13 +403,24 @@ button:hover {
   background-repeat: no-repeat;
   color: #ffffff;
   font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .sec4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin-bottom: 100px;
 }
@@ -308,21 +431,37 @@ button:hover {
   font-family: "BPG Nateli", sans-serif;
   margin-bottom: 20px;
   font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 580px;
   margin-bottom: 40px;
 }
 
 .oriverow {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 40px;
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 120px;
   display: flex;
@@ -335,8 +474,15 @@ button:hover {
 }
 
 .row a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   text-decoration: none;
 }
@@ -348,8 +494,14 @@ button:hover {
   height: 267px;
   background-color: #ffffff;
   border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -369,8 +521,13 @@ button:hover {
 
 .footer {
   font-family: "BPG Nino Mtavruli", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100%;
   height: 200px;
@@ -393,6 +550,8 @@ button:hover {
 }
 
 .footercontact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 10px;
   width: 50px;
@@ -403,9 +562,14 @@ button:hover {
 /* ............................... ეკოპრობლემები */
 
 .nav2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 7px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -419,36 +583,64 @@ h3 {
   font-family: "BPG Nateli", sans-serif;
   color: #ffffff;
   margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 30px;
 }
 
-h5,
-h6 {
+.seccard1 div h5,
+.seccard2 div h6 {
   font-size: 30px;
   color: #ffffff;
   font-weight: 200;
-  width: 780px;
-  margin-bottom: 20px;
+  width: 700px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
-h6 {
-  width: 517px;
+.seccard2 div h6 {
+  width: 360px;
 }
 
 .seccard1,
 .seccard2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 40px;
   padding-top: 25px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 
 .seccard2 {
   margin-bottom: 90px;
+}
+
+.seccard1 div,
+.seccard2 div {
+  background-color: #49522ac7;
+  width: 785px;
+  height: 322px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 7px;
 }
 
 .seccard1 div p,
@@ -469,7 +661,11 @@ h6 {
 }
 
 .secsec3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 90px;
   margin-top: 70px;
@@ -501,11 +697,15 @@ h6 {
 }
 
 .secsec4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 90px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .seccard6 h1,
@@ -538,12 +738,18 @@ h6 {
 }
 
 .seccard9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 40px;
   padding-top: 25px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .seccard9 div li {
@@ -554,12 +760,28 @@ h6 {
   margin-bottom: 7px;
 }
 
+h6 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 200;
+  width: 630px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /* ................................... სიახლეები  */
 
 .nav3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  gap: 9px;
+  gap: 7px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -567,12 +789,99 @@ h6 {
   text-decoration: none;
 }
 
+.titlenews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.titlenews h1 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 50px;
+  width: 1315px;
+  font-family: "BPG Nateli", sans-serif;
+}
+
+.new {
+  z-index: 1;
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+
+.card {
+  width: 600px;
+}
+
+.col {
+  width: 600px !important;
+}
+
+.roww {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.card-img-top {
+  height: 332px;
+}
+
+.card-body {
+  height: 175px;
+}
+
+.footernews {
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: #d4ddc9;
+  gap: 40px;
+}
+
+.footernews div h1 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footernews div p {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: -4px;
+}
+
 /* .................................. ჩვენს შესახებ */
 
 .nav4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 7px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -581,8 +890,15 @@ h6 {
 }
 
 .aboutus {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -590,7 +906,7 @@ h6 {
   font-size: 30px;
   color: #ffffff;
   font-family: "BPG Nateli", sans-serif;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 20px;
   font-weight: 600;
   width: 1300px;
@@ -606,15 +922,22 @@ h6 {
 }
 
 .photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 100px;
   gap: 45px;
-  margin-bottom: 70px;
+  margin-bottom: 130px;
 }
 
 .photos div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 90px;
 }
@@ -626,9 +949,14 @@ h6 {
 /* ..................................... კონტაქტი */
 
 .nav5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 7px;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -637,9 +965,17 @@ h6 {
 }
 
 .smallcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 150px;
 }
@@ -655,18 +991,32 @@ h6 {
 }
 
 .orivecardi {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 250px;
 }
 
 .phone,
 .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 10px;
   width: 150px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -676,8 +1026,14 @@ h6 {
   height: 70px;
   border-radius: 50%;
   background-color: #384d20;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -702,16 +1058,27 @@ h6 {
 }
 
 .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 
 .info form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin-bottom: 20px;
 }
