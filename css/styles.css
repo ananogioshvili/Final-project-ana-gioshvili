@@ -51,6 +51,10 @@ a:hover {
   font-weight: 600;
 }
 
+.menu {
+  display: none;
+}
+
 .icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,6 +185,7 @@ h2 {
   -ms-flex-pack: center;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 h4 {
@@ -449,6 +454,7 @@ button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -464,7 +470,6 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
   gap: 120px;
-  display: flex;
 }
 
 .row p {
