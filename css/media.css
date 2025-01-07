@@ -79,7 +79,8 @@
 }
 
 @media screen and (max-width: 900px) {
-  .footer {
+  .footer,
+  .footernews {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 80px;
@@ -206,7 +207,7 @@
   }
 }
 
-/* .....................index.html....................... */
+/* ................natureproblems.html................. */
 
 @media screen and (max-width: 1330px) {
   .secsec3,
@@ -383,5 +384,204 @@
 @media screen and (max-width: 378px) {
   h3 {
     font-size: 33px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .footer {
+    padding-left: 28px;
+  }
+}
+
+/* .....................news.html....................... */
+
+@media screen and (max-width: 1320px) {
+  .titlenews h1 {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .card {
+    width: 420px;
+  }
+  .card-body {
+    height: 250px;
+  }
+  .col {
+    width: 418px !important;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .card {
+    width: 300px;
+  }
+  .card-body {
+    height: 330px;
+  }
+  .col {
+    width: 298px !important;
+  }
+  .card-img-top {
+    height: 215px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .card {
+    width: 250px;
+  }
+  .card-body {
+    height: 420px;
+  }
+  .col {
+    width: 248px !important;
+  }
+  .card-img-top {
+    height: 190px;
+  }
+  .titlenews h1 {
+    font-size: 40px;
+  }
+  .titlenews h1 {
+    width: 186px;
+  }
+  .footernews {
+    padding-left: 35px;
+  }
+}
+
+/* .....................aboutus.html....................... */
+
+@media screen and (max-width: 1305px) {
+  .photos div {
+    gap: 10px;
+  }
+  .aboutus h1 {
+    width: 171px;
+  }
+  .aboutus p {
+    width: 1093px;
+    line-height: 26px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1143px) {
+  .photos div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  .aboutus p {
+    width: 740px;
+    font-size: 23px;
+    line-height: 27px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .aboutus p {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .photos div img {
+    width: 250px;
+  }
+  .aboutus p {
+    width: 260px;
+  }
+}
+
+/* .....................contact.html....................... */
+
+@media screen and (max-width: 1360px) {
+  .contact {
+    width: 200px;
+    margin-bottom: 90px;
+    margin-top: 70px;
+  }
+  .orivecardi {
+    gap: 110px;
+  }
+  .info {
+    gap: 0px;
+    flex-direction: column;
+    align-content: center;
+  }
+  textarea,
+  .name,
+  .tele,
+  .email,
+  .send {
+    width: 920px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .orivecardi {
+    flex-wrap: wrap;
+    gap: 188px;
+  }
+  .phone div,
+  .social div {
+    width: 140px;
+    height: 140px;
+  }
+  .phone div i {
+    font-size: 50px;
+  }
+  .social div i {
+    font-size: 60px;
+  }
+  .phone h1,
+  .social h1 {
+    font-size: 25px;
+  }
+  .phone p,
+  .social p {
+    font-size: 24px;
+  }
+  .phone,
+  .social {
+    width: 185px;
+  }
+  textarea,
+  .name,
+  .tele,
+  .email,
+  .send {
+    width: 565px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .phone,
+  .social {
+    width: 237px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  textarea,
+  .name,
+  .tele,
+  .email,
+  .send {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  textarea,
+  .name,
+  .tele,
+  .email,
+  .send {
+    width: 300px;
   }
 }
